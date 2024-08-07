@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estate Advertisement</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">EstateCo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Properties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Properties</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Featured Estate</li>
+    </ol>
+  </nav>
+  
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to Your Dream Home!</h1>
+    <p class="lead">Discover the elegance and comfort of our featured estate. Nestled in a prime location, this luxurious property offers everything you need and more.</p>
+    <hr class="my-4">
+    <p>From spacious living areas to beautiful outdoor spaces, this estate is designed to provide the ultimate living experience.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+  </div>
+  
+  <!-- Grid System -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/71UufTGeBXL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Living Room">
+          <div class="card-body">
+            <h5 class="card-title">Spacious Living Room</h5>
+            <p class="card-text">Enjoy the comfort and elegance of a beautifully designed living room.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1386951983/photo/3d-rendering-of-simple-kitchen-design-with-green-wall.jpg?s=612x612&w=0&k=20&c=4m8SgVH1UZ0OYYFaA5EIlz6CYk7GZZ_sHKlDDH2Ku8A=" class="card-img-top" alt="Kitchen">
+          <div class="card-body">
+            <h5 class="card-title">Modern Kitchen</h5>
+            <p class="card-text">A state-of-the-art kitchen equipped with the latest appliances.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.pinimg.com/1200x/70/d7/2a/70d72a60ad6ddf9597e233d852687578.jpg" class="card-img-top" alt="Garden">
+          <div class="card-body"><br>
+            <h5 class="card-title">Beautiful Garden</h5>
+            <p class="card-text">Relax in a serene garden, perfect for outdoor gatherings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Form -->
+  <div class="container mt-5">
+    <h2>Contact Us for More Information</h2>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Phone Number</label>
+        <input type="tel" class="form-control" id="exampleInputPhone" placeholder="Enter phone number">
+      </div>
+      <div class="form-group">
+        <label for="exampleMessage">Message</label>
+        <textarea class="form-control" id="exampleMessage" rows="3" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
